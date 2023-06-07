@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background-image: url(../img/fon1920.png);
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container-pre-head {
+    background-color: white;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 20px; */
+    color: black;
+}
+.nav-link{
+	font-size: 15px !important;
+}
+.container-pre-head .number {
+    margin-right: 2rem;
+}
+.niz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-pre-head .polit {}
+
+.container-pre-head .polit a {
+    color: #FF5E0E !important;
+    text-decoration: none;
+}
+
+.btn-white {
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50vh;
+    border: 3px solid #fff !important;
+}
+.form__btn {
+	border: none;
+	cursor: pointer;
+	font-size: inherit;
+	text-transform: uppercase;
+	background: #fe9000;
+	border-radius: 50vh;
+	color: #fff;
+	margin-top: 20px;
+	padding: 15px 55px;
+}
+.btn-white:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.navbar-nav ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #1F1F1F;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 0 3px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-item:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+header.header .nav-link.active {
+    border-bottom: 3px solid #FF5E0E;
+    color: #fff;
+}
+
+
+
+.prew {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.prew .hr {
+    display: flex;
+    align-items: center;
+}
+
+.prew .hr h2 {
+    font-size: 28px;
+    color: #FF5E0E;
+}
+
+.prew .txt h1 {
+    font-size: 36px;
+}
+
+
+/* .container-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.container-profil .log h3 {
+    color: #FF5E0E;
+    font-size: 24px;
+    /* margin-right: 432px; */
+}
+
+.container-profil p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.container-profil input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+
+}
+
+.container-profil select {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+
+}
+
+.container-profil .date input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 70px;
+    height: 55px;
+
+}
+
+
+/* .container-adres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.container-adres .log h3 {
+    color: #FF5E0E;
+    font-size: 24px;
+    /* margin-right: 600px; */
+}
+
+.container-adres p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.container-adres input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+
+}
+
+
+/* .container-pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.container-pay .log h3 {
+    color: #FF5E0E;
+    font-size: 24px;
+    /* margin-right: 215px; */
+}
+
+.container-pay p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.container-pay .pays {
+    display: flex;
+}
+
+.container-pay .pays .srok {
+    /* margin-right: 99px; */
+}
+
+.container-pay .pays .srok .input {
+    display: flex;
+    align-items: center;
+}
+
+.container-pay .pays .srok input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 70px;
+    height: 55px;
+
+}
+
+.container-pay .pays .cvc input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+
+}
+
+.container-pay input {
+    display: inline-block;
+    margin-top: 0px;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+
+}
+
+.pays-date {
+    max-width: 75px;
+}
+
+.container-pay .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-pay .info p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-foot {
+    margin-top: 30px;
+    background-color: #1F1F1F;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-foot .blok1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-foot .blok2 {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-foot .soc {
+    margin-bottom: 30px;
+}
+
+.container-foot .soc img {
+    margin-right: 10px;
+}
+
+.container-foot .copyright p {
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.container-foot .copyright .odin {
+    color: white;
+}
+
+.container-foot .copyright .dwa {
+    color: #8D8D8D;
+}
+
+.container-foot .reg {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.container-foot .reg .palka {
+    font-size: 20px;
+    color: white;
+}
+
+.container-foot .reg a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white !important;
+    text-decoration: none;
+}
+
+.container-foot .document p {
+    /* width: 450px; */
+}
+
+.container-foot .document a {
+    font-size: 16px;
+    width: 400px !important;
+    color: #8D8D8D !important;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .container-foot {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-foot .blok2 {
+        text-align: center;
+    }
+}

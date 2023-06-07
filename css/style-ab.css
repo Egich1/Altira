@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background-image: url(../img/fon1920.png);
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container-pre-head {
+    background-color: white;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 20px; */
+    color: black;
+}
+.nav-link{
+	font-size: 15px !important;
+}
+.container-pre-head .number {
+    margin-right: 2rem;
+}
+
+.container-pre-head .polit {}
+
+.container-pre-head .polit a {
+    color: #FF5E0E !important;
+    text-decoration: none;
+}
+
+.btn-white {
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50vh;
+    border: 3px solid #fff !important;
+}
+
+.btn-white:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.navbar-nav ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #1F1F1F;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 0 3px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-item:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+header.header .nav-link.active {
+    border-bottom: 3px solid #FF5E0E;
+    color: #fff;
+}
+
+
+
+.container-offer .part1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../img/obr-fon.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.container-offer .part1 h1 {
+    font-size: 100px;
+    color: white;
+}
+
+.container-offer .part2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-offer .part2 p {
+    max-width: 760px;
+    width: 100%;
+    font-size: 22px;
+}
+
+
+.polka {
+    background-image: url(../img/polka.png);
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about .blok1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container-about .blok2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container-about .blok3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-about .odin {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about .odin .heads {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container-about .odin .heads img {
+    margin-right: 15px;
+}
+
+.container-about .odin .log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.container-about .odin .log h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-about .odin p {
+    font-size: 22px;
+    text-align: justify;
+    /* width: 650px; */
+}
+
+/* .container-about .blok1 .dwa {
+    background-image: url(../img/ab1.png);
+    height: 400px;
+     width: 640px;
+}
+
+.container-about .blok2 .dwa {
+    background-image: url(../img/ab2.png);
+    height: 400px;
+    width: 640px;
+}
+
+.container-about .blok3 .dwa {
+    background-image: url(../img/ab3.png);
+    height: 400px;
+    width: 640px;
+} */
+
+
+.container-place {
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-place .logo h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container-place .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-place .blok {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* margin-right: 30px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container-place .blok {
+    background-image: url(../img/map2.png);
+    height: 210px;
+    /* width: 410px; */
+}
+
+.container-place h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.container-place p {
+    font-size: 18px;
+    color: white;
+}
+
+.container-place button {
+    font-size: 23px;
+    color: #FF5E0E;
+    border-radius: 0px;
+    width: 152px;
+    height: 50px;
+}
+
+
+
+.container-foot {
+    /* margin-top: 30px; */
+    background-color: #1F1F1F;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-foot .blok1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-foot .blok2 {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-foot .soc {
+    margin-bottom: 30px;
+}
+
+.container-foot .soc img {
+    margin-right: 10px;
+}
+
+.container-foot .copyright p {
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.container-foot .copyright .odin {
+    color: white;
+}
+
+.container-foot .copyright .dwa {
+    color: #8D8D8D;
+}
+
+.container-foot .reg {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.container-foot .reg .palka {
+    font-size: 20px;
+    color: white;
+}
+
+.container-foot .reg a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white !important;
+    text-decoration: none;
+}
+
+.container-foot .document p {
+    /* width: 450px; */
+}
+
+.container-foot .document a {
+    font-size: 16px;
+    width: 400px !important;
+    color: #8D8D8D !important;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .container-foot {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-foot .blok2 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Altiral</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/style-serv.css">
+</head>
+
+<body>
+	<!-- <div class="kontainer">
+        <div class="container-pre-head">
+            <div class="number">
+                <p>7(999)999 99-99</p>
+            </div>
+            <div class="polit">
+                <p>
+                    ПОЛИТИКА СОГЛАШЕНИЯ | <a href="#">ЧИТАТЬ БОЛЬШЕ</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-head">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <div class="menu">
+                <div class="group1">
+                    <a href="#ticket" style="background: linear-gradient(to right, #FF5E0E 150px, transparent 150px) bottom left / 200px 3px no-repeat;">Абонемент</a>
+                    <a href="#service">Услуги</a>
+                    <a href="#feedback">Задать вопрос</a>
+                </div>
+                <div class="group2">
+                    <a href="index.html" target="_blank">Главная</a>
+                    <a href="about.html" target="_blank">О нас</a>
+                    <a href="profile.html" target="_blank">Профиль</a>
+                </div>
+            </div>
+            <div class="but">
+                <button type="button" class="btn btn-light"><a href="login.html" target="_blank">Выйти</a></button>
+            </div>
+        </div> -->
+
+	<div class="kontainer">
+		<div class="container-pre-head flex-column flex-sm-row">
+			<div class="number">
+				<p>7(999)999 99-99</p>
+			</div>
+			<div class="polit text-center text-lg-start">
+				<p>
+					ПОЛИТИКА СОГЛАШЕНИЯ | <a href="img/polzovatel.pdf" download>ЧИТАТЬ БОЛЬШЕ</a>
+				</p>
+			</div>
+		</div>
+
+		<header class="header">
+			<nav class="navbar navbar-dark navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand me-5 me-0" href="index.html"><img src="./img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse py-2" id="navbarNav">
+						<ol class="navbar-nav w-100 me-5 me-0">
+							<ul class="ps-0 pe-0 pe-xl-5 d-flex align-items-center flex-column flex-lg-row text-center text-lg-start d-flex d-lg-none d-xxl-flex">
+								<li class="nav-item">
+									<a class="nav-link active" href="#ticket">Абонемент</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#service">Услуги</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#feedback">Обратная связь</a>
+								</li>
+							</ul>
+
+							<ul class="ps-0 d-flex align-items-center flex-column flex-lg-row text-center text-lg-start">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Главная</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">О нас</a>
+								</li>
+							</ul>
+							<div class="dlina"></div>
+							<ul
+								class="ps-0 d-flex flex-column flex-sm-row ms-lg-auto mx-lg-0 mx-auto text-center text-lg-start">
+								<li class="nav-item me-0 me-sm-3 pb-3 pb-sm-0">
+									<a class="btn btn-white py-2 px-4" href="login.php">Войти</a>
+								</li>
+								<li class="nav-item">
+									<a class="btn btn-white py-2 px-4" href="register.php">Регистрация</a>
+								</li>
+							</ul>
+						</ol>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container container-ticket mb-5" id="ticket">
+			<div class="log">
+				<h1 class="text-center">Доступные варианты аббонементов</h1>
+				<p class="text-center">Мы знаем, что принимать решения тяжело, но не переживайте из-за этого. Выберите членство, которое подходит именно вам, и начните стремиться к величию.</p>
+			</div>
+			<div class="kards row gx-0 gx-md-4">
+				<div class="kard col-12 mb-5 col-md-6 col-lg-4">
+					<div class="verx">
+						<h2>premium</h2>
+						<h1>16 999₽</h1>
+						<p>PREMIUM на 360 дней</p>
+						<hr style="width: 170px; background-color: white; height: 5px; opacity: 1; margin: 0;">
+						<p>ДОСТУП КО ВСЕМ КЛУБАМ</p>
+						<a href="login.php"><button type="button" class="btn btn-light">ВЫБРАТЬ</button></a>
+					</div>
+					<div class="niz h-100">
+						<h3>Включает в себя:</h3>
+						<ul>
+							<li>Фитнес без ограничений по времени и количеству посещений;</li>
+							<li>Тренажерный зал с кардиозоной;</li>
+							<li>Групповые программы Les Mills virtual;</li>
+							<li>Коммерческие классы (студии) с доплатой;</li>
+							<li>Русско-финскую сауну;</li>
+							<li>Раздевалки с душевыми, индивидуальными шкафчиками с электронными замками, фенами;</li>
+							<li>Ячейки для хранения личных вещей, в зоне рецепции;</li>
+							<li>Заморозку (приостановку) Членства до 90 дней при сроке действия 360 дней, до 60 дней при сроке действия 180 дней;</li>
+							<li>Членство дает возможность посещать групповые программы, тренажерный зал ежедневно, но не более 1 раза в день!</li>
+						</ul>
+					</div>
+				</div>
+				<div class="kard col-12 mb-5 col-md-6 col-lg-4 ">
+					<div class="verx">
+						<h2>classic</h2>
+						<h1>6 499₽</h1>
+						<p>CLASSIC на 90 дней</p>
+						<hr style="width: 170px; background-color: white; height: 5px; opacity: 1; margin: 0;">
+						<p>ДОСТУП КО ВСЕМ КЛУБАМ</p>
+						<a href="login.php"><button type="button" class="btn btn-light">ВЫБРАТЬ</button></a>
+					</div>
+					<div class="niz h-100">
+						<h3>Включает в себя:</h3>
+						<ul>
+							<li>Фитнес без ограничений по времени и количеству посещений;</li>
+							<li>Тренажерный зал с кардиозоной;</li>
+							<li>Групповые программы Les Mills virtual;</li>
+							<li>Коммерческие классы (студии) с доплатой;</li>
+							<li>Русско-финскую сауну;</li>
+							<li>Раздевалки с душевыми, индивидуальными шкафчиками с электронными замками, фенами;</li>
+							<li>Ячейки для хранения личных вещей, в зоне рецепции;</li>
+							<li>Заморозку (приостановку) Членства до 14 дней при сроке действия 90 дней, до 7 дней при сроке действия 30 дней;</li>
+							<li>Членство дает возможность посещать групповые программы, тренажерный зал ежедневно, но не более 1 раза в день!</li>
+						</ul>
+					</div>
+				</div>
+				<div class="kard col-12 mb-5 col-lg-4">
+					<div class="verx">
+						<h2>econom</h2>
+						<h1>1 499₽</h1>
+						<p>ECONOM на 30 дней</p>
+						<hr style="width: 170px; background-color: white; height: 5px; opacity: 1; margin: 0;">
+						<p>ДОСТУП КО ВСЕМ КЛУБАМ</p>
+						<a href="login.php"><button type="button" class="btn btn-light">ВЫБРАТЬ</button></a>
+					</div>
+					<div class="niz h-100" style="justify-content: flex-start;">
+						<h3>Включает в себя:</h3>
+						<ul>
+							<li>Фитнес без ограничений по времени и количеству посещений;</li>
+							<li>Тренажерный зал с кардиозоной;</li>
+							<li>Групповые программы Les Mills virtual;</li>
+							<li>Коммерческие классы (студии) с доплатой;</li>
+							<li>Русско-финскую сауну;</li>
+							<li>Раздевалки с душевыми, индивидуальными шкафчиками с электронными замками, фенами;</li>
+							<li>Ячейки для хранения личных вещей, в зоне рецепции;</li>
+							<li>Членство дает возможность посещать групповые программы, тренажерный зал ежедневно, но не более 1 раза в день!</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="fraza">
+				<p>* Годовая плата будет выставляться один раз в год. Чтобы узнать подробную информацию о том, когда с вас будет взиматься полная годовая плата, ознакомьтесь с Правилами и условиями этого клуба или спросите в клубе.</p>
+			</div>
+		</div>
+
+		<div class="container-service" id="service">
+			<div class="container">
+				<div class="kards row row-cols-1 row-cols-md-2 row-cols-xxl-4 gx-4">
+					<!-- <div class="kard1 kard col">
+						<div class="text">
+							<p>КАРДИОТРЕНАЖЕРЫ</p>
+						</div>
+					</div>
+					<div class="kard2 kard col">
+						<div class="text">
+							<p>ТЯЖЕЛЫЕ ВЕСА</p>
+						</div>
+					</div>
+					<div class="kard3 kard col">
+						<div class="text">
+							<p>БЕГОВЫЕ ДОРОЖКИ</p>
+						</div>
+					</div>
+					<div class="kard4 kard col">
+						<div class="text">
+							<p>ГРУППОВЫЕ ЗАНЯТИЯ ФИТНЕСОМS</p>
+						</div>
+					</div>
+					<div class="kard5 kard col">
+						<div class="text">
+							<p>СИЛОВАЯ ПОЛУЧАСОВАЯ КРУГОВАЯ ТРЕНИРОВКА</p>
+						</div>
+					</div>
+					<div class="kard6 kard col">
+						<div class="text">
+							<p>ПЕРСОНАЛЬНОЕ ОБУЧЕНИЕ</p>
+						</div>
+					</div>
+					<div class="kard7 kard col">
+						<div class="text">
+							<p>ПРИВИЛЕГИИ ГОСТЯ</p>
+						</div>
+					</div>
+					<div class="kard8 kard col">
+						<div class="text">
+							<p>РАЗДЕВАЛКИ С ДУШЕВЫМИ КАБИНАМИ</p>
+						</div>
+					</div> -->
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl1.png);">
+							<div class="kard-text">
+								<p>КАРДИОТРЕНАЖЕРЫ</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl2.png);">
+							<div class="kard-text">
+								<p>ТЯЖЕЛЫЕ ВЕСА</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl3.png);">
+							<div class="kard-text">
+								<p>БЕГОВЫЕ ДОРОЖКИ</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl4.png);">
+							<div class="kard-text">
+								<p>ГРУППОВЫЕ ЗАНЯТИЯ ФИТНЕСОМ</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl5.png);">
+							<div class="kard-text">
+								<p>СИЛОВАЯ КРУГОВАЯ ТРЕНИРОВКА</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl6.png);">
+							<div class="kard-text">
+								<p>ПЕРСОНАЛЬНОЕ ОБУЧЕНИЕ</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl7.png);">
+							<div class="kard-text">
+								<p>ПРИВИЛЕГИИ ГОСТЯ</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="kard" style="background-image: url(./img/ysl8.png);">
+							<div class="kard-text">
+								<p>РАЗДЕВАЛКИ С ДУШЕВЫМИ КАБИНАМИ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-feedback" id="feedback">
+			<div class="part1">
+				<h1 class="text-center display-1 fw-semibold">Обратная связь</h1>
+			</div>
+			<div class="part1-2">
+				<h2>Ты спрашиваешь. Мы отвечаем.
+					Давайте Займемся Тяжелой Работой!</h2>
+				<h3>У вас есть к нам вопрос или комментарий?</h3>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-xl-6">
+						<form action="mail.php" method="POST" name="form">
+							<p>E-mail</p>
+							<input name="user_email" type="text" placeholder="exmaple@gmail.com" />
+							<p>Комментарий</p>
+							<textarea cols="32" name="user_message" rows="5"></textarea>
+							<div class="checkbox my-3">
+								<input type="checkbox">
+								<p>Я согласен с Условиями членства</p>
+							</div>
+
+							<input type="submit" value="Отправить" style="background-color: #1F1F1F; color: white;" />
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container-foot">
+			<div class="blok1">
+				<div class="soc">
+					<a href="404.html"><img src="img/Facebook2.png"></a>
+					<a href="404.html"><img src="img/Instagram.png"></a>
+					<a href="404.html"><img src="img/vk2.png"></a>
+					<a href="404.html"><img src="img/YouTube2.png"></a>
+				</div>
+				<div class="copyright text-center text-md-start">
+					<p class="odin">© 2023 Сделано Егором</p>
+					<p class="dwa">Все права защищены</p>
+				</div>
+			</div>
+			<div class="blok2">
+				<div class="reg">
+					<a href="register.php">Зарегистрироваться</a>
+					<span class="palka">/</span>
+					<a href="login.php">Войти</a>
+				</div>
+				<div class="reg">
+					<a href="#">Вернуться в начало</a>
+				</div>
+				<div class="document">
+					<p><a href="img/polzovatel.pdf" download>УСЛОВИЯ ИСПОЛЬЗОВАНИЯ * ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ * НАСТРОЙКИ ФАЙЛОВ COOKIE</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
